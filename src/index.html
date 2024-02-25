@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <p class="hero__text">
+                Contagem de Dias para maior festa já realizada por Lucas Barros, que começará em <span class="hero__text__timer" id="timer"></span>
+            </p>
+        </div>
+    </header>
+    <section class="event event--where">
+        <div class="container" data-aos="fade-down">
+            <div class="event__details">
+                <h2 class="event__details__title">Onde:</h2>
+                <p class="event__details__description">
+                    Proximo a Times Square - Rua W45th st - Hudson Theatre
+                </p>
+            </div>
+            <img class="event__image" src="./images/where.png" alt="Times Square">
+        </div>
+    </section>
+    <section class="event event--people">
+        <div class="container" data-aos="fade-up">
+            <div class="event__details">
+                <h2 class="event__details__title">Lucas Barros</h2>
+                <p class="event__details__description">
+                    Eai, Tudo bom? Estarei realizando minha festa de Aniversario e se você recebeu este link, considere convidado!!!!!
+                </p>
+            </div>
+            <img class="event__image" src="./images/me.png" alt="Lucas barros">
+        </div>
+    </section>
+    <section class="event event--gifts">
+        <div class="container" data-aos="fade-up-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Presentes</h2>
+                <p class="event__details__description">
+                    Os presentes serão deixados na entrada com o segurança, favor colocar etiquetas neles!!!
+                </p>
+            </div>
+            <img class="event__image" src="./images/gift.png" alt="Presentes">
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
